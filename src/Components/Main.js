@@ -14,7 +14,7 @@ const Main = () => {
     return (
         <>
             <Header />
-            <Switch>
+            <Switch >
                 <Route path='/home' component={Home} />
                 <Route path='/destination' component={Destination} />
                 <Route path='/treatment' component={Treatment} />

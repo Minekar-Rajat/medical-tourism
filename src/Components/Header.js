@@ -10,11 +10,13 @@ const Header = () => {
     const toggle = () => setisOpen(!isOpen);
 
 
+
+
     return (
         <div >
-            <Navbar className='nav-clr' dark expand='md'>
-                <NavbarBrand href="/" className="mr-auto"><img src='../images/medicaltourism.png' className='img-fluid rounded' height='80' width='300' /></NavbarBrand>
-                <NavbarToggler onClick={toggle} className="mr-2" />
+            <Navbar className='nav-clr' light expand='md'>
+                <NavbarBrand href="/" className="mr-auto"><img src='../images/medicaltourism1.png' className='img-fluid rounded ' height='80' width='300' /></NavbarBrand>
+                <NavbarToggler onClick={toggle} className="mr-2 ml-auto" />
                 <Collapse isOpen={!isOpen} navbar >
 
                     <Nav navbar className='mx-auto '>
