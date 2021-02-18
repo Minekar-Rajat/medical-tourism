@@ -12,18 +12,91 @@ body{
 overflow-x: hidden;
 }
 
-.bg-red{
-  background-color: rgb(221, 56, 56);
+.med-img{
+  width: 100%;
+  position: fixed;
+}
+/* 
+.first-div{
+  animation:  2s ease-in-out forwards;
+}
+
+.third-div{
+  background-color: red;
+  height: 123vh;
+  opacity: 1;
+
+}
+
+@keyframes slide-up {
+  from{
+    margin-top: 84vh;
+  }
+  to{
+    
+  }
+} 
+
+.second-div{
+  background-color: #9dacd1;
+  height: 123vh;
+  
+}
+*/
+
+.home{
+  background-color: red;
+}
+
+.first-div{
+  height: 100vh;
+  background-color: #9dacd1;
+
 }
 
 .bg-footer{
   background-color: rgb(73, 73, 73);
+  
 }
 
 #links:hover{
   color: white;
   font-weight: bold;
   text-decoration: none;
+}
+
+
+.location{
+  width: 80%;
+}
+
+.addr{
+  font-family:  monospace system sans-serif;
+  
+}
+
+@media only screen and (min-width: 521px )  {
+  .addr {
+    padding-top: 50px;
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+}
+
+@media only screen and (min-width: 690px) {
+  .addr {
+    padding-top: 50px;
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+}
+
+@media only screen and (min-width: 786px) {
+  .addr {
+    padding-top: 100px;
+    padding-left: 5px;
+    padding-right: 5px;
+  }
 }
 
 #icons{
