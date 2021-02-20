@@ -13,7 +13,7 @@ const Header = () => {
 
 
     return (
-        <div >
+        <div id='nav'>
             <Navbar className='nav-clr' light expand='md'>
                 <NavbarBrand href="/" className="mr-auto"><img src='../images/medicaltourism1.png' className='img-fluid rounded ' height='80' width='300' /></NavbarBrand>
                 <NavbarToggler onClick={toggle} className="mr-2 ml-auto" />

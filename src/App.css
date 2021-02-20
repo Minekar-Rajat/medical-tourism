@@ -1,3 +1,12 @@
+html{
+  scroll-behavior: smooth;
+}
+
+.carousel-control-prev-icon,
+  .carousel-control-next-icon{
+    filter: invert(1)
+  }
+
 .nav-clr{
   background-color: white;
 }
@@ -45,13 +54,103 @@ overflow-x: hidden;
 */
 
 .home{
-  background-color: red;
+  background-size: 100%  85vh;
 }
 
-.first-div{
-  height: 100vh;
-  background-color: #9dacd1;
 
+
+.first-div{
+  height: 85vh;
+  /* background-color: #9dacd1; */
+  background-color: rgba(0, 0, 0, 0.3);
+  backface-visibility: visible;
+  
+}
+
+.second-div{
+  background-color: #9dacd1;
+  padding-bottom: 6%;
+}
+
+.icon:hover{
+  height: 200px;
+  width: 200px;
+  transition: all 0.25s;
+}
+
+@media only screen and (max-width: 570px )  {
+  .home{
+    background-size: 140% 85vh;
+  
+  }
+  #dest-more{
+    height: 280px;
+    background-image: linear-gradient(to bottom right ,rgb(243, 153, 101) , #9dacd1 );
+  }
+
+}
+
+@media only screen and (max-width:300px){
+  #dest-more{
+    height: 180px;
+    background-image: linear-gradient(to bottom right ,rgb(243, 153, 101) , #9dacd1 );
+  }
+}
+
+.third-div{
+  padding-bottom: 4%;
+  background-color: rgb(238, 238,238);
+}
+
+.fourth-div{
+  background-image: linear-gradient(to bottom right ,  cornflowerblue , rgb(186, 196, 218) , rgb(197, 207, 226) , rgb(255, 255, 255) );
+  
+   padding-bottom: 5%;
+}
+
+.hosp-logo{
+  border: rgb(42, 42, 42) 1px solid;
+  
+}
+
+.black{
+  color: rgb(0, 0, 0);
+}
+
+.centers-text-1{
+  color: rgb(0, 0, 0);
+  font-size: 20px;
+  font-family: Verdana, Geneva,monospace, Tahoma, sans-serif;
+}
+
+.dest-text-1{
+  color: rgb(59, 59, 59);
+  font-size: 20px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.dest-text-2{
+  color: rgb(93, 159, 221);
+}
+
+.dest-text-3{
+  margin-top: 80px;
+}
+
+#dest-img:hover {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+#dest-img{
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+.main-txt{
+  color: white;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 50px;
+  font-weight: bolder;
+  padding-top: 15%;
 }
 
 .bg-footer{
@@ -81,6 +180,8 @@ overflow-x: hidden;
     padding-left: 5px;
     padding-right: 5px;
   }
+  
+  
 }
 
 @media only screen and (min-width: 690px) {
@@ -97,6 +198,7 @@ overflow-x: hidden;
     padding-left: 5px;
     padding-right: 5px;
   }
+  
 }
 
 #icons{

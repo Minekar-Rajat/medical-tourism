@@ -31,6 +31,7 @@ const Footer = () => {
                     <center>
                         <b className='logo-name white'><a href='/home' className='white' id='links'>medical tourism </a></b>
                     </center>
+
                 </div>
                 <div className="col-6 col-sm-3">
                     <center>
@@ -51,7 +52,7 @@ const Footer = () => {
 
                     </center>
                 </div>
-                <div className="col-12 col-sm-6">
+                <div className="col-6 col-sm-4">
                     <center>
                         <h5 className='pt-3'>Connect with us</h5> <br />
 
@@ -59,6 +60,11 @@ const Footer = () => {
                         <a href='https://www.facebook.com/medicaltourismassociation/' className='white px-2' id='icons' target='_blank'><i className='fa fa-facebook-square' title='Facebook'></i></a>
                         <a href='https://twitter.com/med_travel?lang=en' className='white px-2' id='icons' target='_blank' ><i className='fa fa-twitter-square' title='Twitter'></i></a>
                         <a href='https://www.linkedin.com/company/medical-tourism-association/' className='white px-2' id='icons' target='_blank'><i className='fa fa-linkedin-square' title='Linkedin'></i></a>
+                    </center>
+                </div>
+                <div className='col-6 col-sm-2 '>
+                    <center>
+                        <a href='#nav' className='white ' title='Go Up'><img src='../images/arrow.png' className='mt-5' height='30' width='30' alt='Up' /></a>
                     </center>
                 </div>
             </div>
